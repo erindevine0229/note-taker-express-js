@@ -26,4 +26,6 @@ router.post('/api/notes', (req, res) => {
        title: req.body.title,
        text: req.body.text,
     };
-})
+});
+
+module.exports = router;
