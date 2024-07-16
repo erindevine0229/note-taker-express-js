@@ -17,7 +17,8 @@ router.get('/api/notes', (req, res) => {
 router.post('/api/notes', (req, res) => {
     fs.readFile('db.json', 'utf8', (err, noteData) => {
         if (err) {
-            console.error(err);
+            console.error('Error ocurred when reading data', err);
+            res.status(500).send('Error reading data');
             return;
         }
     
@@ -33,9 +34,10 @@ router.post('/api/notes', (req, res) => {
 
     fs.writeFile('db.json', JSON.stringify(currentInfo, null, 2), (err) => {
         if (err) {
-            console.error(err);
+            console.error('Error ocurred when writing data', err);
+            res.status(500).send('Error writing data');
             return;
-        }
+        };
 
         res.json(newInfo);
     });
