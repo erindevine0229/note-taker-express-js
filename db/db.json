@@ -1,6 +1,16 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
+  {
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "id": "fead5149-bb7d-46ed-89d6-4c58f2105771",
+    "title": "Traffic thoughts",
+    "text": "These are some cool ideas for band names I came up with while sitting in traffic"
+  },
+  {
+    "id": "9a035f1e-b635-4ea3-bc92-ca0e8b75137c",
+    "title": "Groceries",
+    "text": "I am craving sushi this week, so here I am writing a list of things I need to buy to make it"
+  }
 ]

@@ -16,8 +16,8 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.static('public'));
 
 // Middleware to handle each route
-app.use(htmlRoutes);
-app.use(apiRoutes);
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
 
 // Listen for incoming connections at the port
