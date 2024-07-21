@@ -12,5 +12,10 @@
     "id": "9a035f1e-b635-4ea3-bc92-ca0e8b75137c",
     "title": "Groceries",
     "text": "I am craving sushi this week, so here I am writing a list of things I need to buy to make it"
+  },
+  {
+    "id": "ee4b1bfa-976a-458a-b6a7-0874f9516098",
+    "title": "I finished the assignment",
+    "text": "Going to push to GitHub now and I'll deploy on Render"
   }
 ]
